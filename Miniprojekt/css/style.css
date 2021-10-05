@@ -1,0 +1,213 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+/* bakgrunds bild till kontakt */
+.kontakt {
+  background-image: url(https://images.unsplash.com/photo-1512428197675-daae5d4e1e43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=873&q=80ages.unsplash.com/photo-1563504215890-f905b626cbcd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=388&q=80);
+  /* bara en bild */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: right;
+  /* Bakgrunds färg */
+  background-color: blanchedalmond;
+}
+
+/*  */
+body,
+html {
+  height: 100%;
+  background-color: teal;
+}
+
+.hero-image {
+  background-image: url("/img/hero.jpg");
+
+  /* höjden */
+  height: 40%;
+
+  /* posetion */
+  background-position: center;
+  /* bilden inte blir flera gånger */
+  background-repeat: no-repeat;
+  /* fyller hela biten */
+  background-size: cover;
+  /* sätter texten i mitten */
+  position: relative;
+}
+
+/* text classen*/
+.hero-text {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  color: rgb(8, 202, 105);
+}
+
+.parallax {
+  background-image: url("https://foretagande.se/images/articles/ny19/motivation-inspiration.jpg");
+  /* höjden */
+  height: 90%;
+
+  /* posetion */
+  background-position: center;
+  /* bilden inte blir flera gånger */
+  background-repeat: no-repeat;
+  /* fyller hela biten */
+  background-size: cover;
+  /* fäster bilden */
+  background-attachment: fixed;
+}
+.inspration {
+  height: 100px;
+  text-align: center;
+
+  background-color: teal;
+  /* gör texten tjockare */
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: rgb(54, 59, 63);
+}
+h2 {
+  background-color: teal;
+  font-size: 4rem;
+  font-weight: 300;
+  color: rgba(0, 0, 255, 0.24);
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
+h3 {
+  font-family: monospace;
+  color: rgba(0, 0, 255, 0.24);
+  padding-top: 50px;
+  margin-top: 2cm ;
+  text-align: center;
+  font-size: 50px;
+}
+
+form {
+  padding-top: 150px;
+  text-align: center;
+}
+h1 {
+  /* border: springgreen solid; */
+  padding-top: 100px;
+  text-align: center;
+  color: steelblue;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+/* startsidan */
+article p {
+  border: rgba(205, 92, 92, 0.103) solid;
+  width: 600px;
+  /* padding insidan av boxen */
+  padding-top: 30px;
+  /* margin utsidan av boxen */
+  margin-left: 200px;
+  margin-top: 150px;
+
+  padding-left: 20px;
+  font-family: sans-serif;
+  text-align: left;
+  float: left;
+  font-size: 0.5cm;
+  color: silver;
+}
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+/* Hover effekt  */
+a:hover:not(.active) {
+  background-color: lightgreen;
+  color: indigo;
+}
+
+/* Sidan jag är inne i gönt highlightad */
+.active {
+  background-color: lightgreen;
+  color: indigo;
+}
+/* Till länkarna */
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+
+  color: rgba(144, 238, 144, 0.473);
+  background-color: rgba(18, 5, 199, 0.062);
+  padding: 14px 16px;
+
+  display: block;
+}
+/* link på inspration */
+.link {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  /* padding-top: 100%; */
+  /* padding-bottom: 100px; */
+  
+
+  color: rgba(52, 41, 66, 0.473);
+  background-color: rgba(240, 240, 243, 0.37);
+  padding: 20px 160px;
+  margin: 15px;
+  
+
+  display: block;
+}
+/* .box {
+  border: orangered solid;
+  width: 2000px;
+  height: 200px;
+  block-size: size 100px;
+  
+} */
+
+img {
+  float: right;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  /* margin-top: 100px; 
+
+  /* width: 500px;
+  height: 500px; */
+}
+.for {
+  margin-top: 10px;
+  margin-right: 400px;
+}
+
+.boringcompany {
+  float: left;
+  /* border: aliceblue solid; */
+  padding-left: 50px;
+  padding-right: 0px;
+  width: 400px;
+  height: 200px;
+  margin-top: 0px
+}
+.stack {
+  /* border: aliceblue solid; */
+  
+  
+  padding-right: 10px;
+  width: 400px;
+  height: 200px;
+  float: left;
+
+  
+}
+.wordpress {
+  /* border: aliceblue solid; */
+  padding-right: 0px;
+  width: 400px;
+  height: 200px;
+  float: right;
+}
